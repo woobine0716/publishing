@@ -1,0 +1,60 @@
+body {
+  /* 자식 요소 가운데 */
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.mini {
+  color: skyblue;
+  text-align: center;
+}
+.big {
+  color: black;
+  text-align: center;
+}
+.medium {
+  color: #bcbcbc;
+  text-align: center;
+}
+.button {
+  /* 자식의 배치도 css */
+  display: flex;
+  /* 가운데로 맞춰줘 */
+  justify-content: center;
+  /* 자식들의 간격을 10px */
+  gap: 10px;
+  width: 400px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  /* 두께 스타일 색깔 */
+  border: 1px solid #dbdbdb;
+  border-radius: 10px;
+
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.apple {
+  color: black;
+  background-color: white;
+}
+.google {
+  color: white;
+  background-color: #252b42;
+}
+
+.icon {
+  display: flex;
+  /* 가운데로 맞춰줘 */
+  align-items: center;
+  font-size: 30px;
+}
+
+.download {
+  display: flex;
+  gap: 10px;
+}
