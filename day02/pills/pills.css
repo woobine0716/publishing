@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  /* 자식들의 간격을 5px씩 주세요 */
+  gap: 5px;
+}
+
+.button {
+  border: 1px solid #dbdbdb;
+  border-radius: 100px;
+  font-size: 14px;
+  font-weight: bold;
+  /* padding: 12[top] 3[right] 6[bottom] 9[left] */
+  padding: 10px 16px 10px 16px;
+
+  /* 마우스 올렸을 때 커서 바뀌는 CSS */
+  cursor: pointer;
+}
+
+.selected {
+  background-color: rgb(58, 143, 255);
+  color: white;
+}

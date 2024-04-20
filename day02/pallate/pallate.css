@@ -1,0 +1,39 @@
+.pallate {
+  width: 100vw;
+  height: 400px;
+  border: 1px solid black;
+
+  display: flex;
+  /* flex-direction: 자식의 방향[가로 or 세로 column] */
+  /* 리버스는 반대방향 */
+
+  /* main 주축으로 정렬 */
+  /* justify-content: center; */
+
+  /* cross축으로 정렬 */
+  /* align-items: flex-end; */
+}
+
+.box {
+  width: 100%;
+  height: 100%;
+}
+
+.red {
+  background-color: red;
+}
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+.white {
+  background-color: white;
+}
+
+.gray {
+  background-color: gray;
+}

@@ -1,0 +1,47 @@
+.layout {
+  color: #1181ff;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.comment {
+}
+
+.register {
+  border: 1px solid #1181ff;
+  border-radius: 8px;
+  width: 80px;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.fruit {
+  font-size: 30px;
+}
+
+.fruit > .apple {
+  color: red;
+}
+
+.fruit > .banana {
+  color: yellow;
+}
+
+.fruit > .orange {
+  color: orange;
+}
+
+body {
+  width: 100vw;
+}
+
+.box {
+  width: 50%;
+  background-color: red;
+}
+.box > .mini {
+  width: 50%;
+  /* 너비의 50% 실제 너비는 100px */
+}
