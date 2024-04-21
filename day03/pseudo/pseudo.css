@@ -1,0 +1,19 @@
+.heading1 {
+  position: relative;
+  padding-top: 50px;
+  padding-left: 30px;
+}
+
+.heading1 > span {
+  position: relative;
+  z-index: 0;
+}
+.heading1::before {
+  content: attr(data-en);
+  position: absolute;
+  transform: rotate(-5deg);
+  top: 0px;
+  left: 0px;
+  color: red;
+  font-size: 50px;
+}

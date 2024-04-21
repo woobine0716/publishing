@@ -1,0 +1,88 @@
+@font-face {
+  font-family: "April16th-Promise";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/2404-2@1.0/April16th-Promise.woff2")
+    format("woff2");
+  font-weight: 200;
+  font-style: normal;
+}
+
+.container {
+  width: 350px;
+  height: 600px;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 25px;
+  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  gap: 30px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+.image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+.image > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  /* 사진 위치 css */
+  object-position: center center;
+}
+
+.introduce {
+  font-family: "April16th-Promise";
+  text-align: center;
+  font-weight: 700;
+  display: flex;
+  gap: 5px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+.button {
+  font-family: "April16th-Promise";
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+  border-radius: 30px;
+  transition: all 0.5s ease;
+}
+.buton:hover {
+  background-color: #69b7dd;
+  font-size: 17px;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-size: 24px;
+}
+.icons > li {
+  transition: all 0.5s ease;
+}
+
+.facebook:hover {
+  color: skyblue;
+}
+
+.instagram:hover {
+  color: plum;
+}
+
+.spotify:hover {
+  color: green;
+}
