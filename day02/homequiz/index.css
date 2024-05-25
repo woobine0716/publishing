@@ -1,0 +1,83 @@
+body {
+    max-width: 1024px;
+}
+.cafe {
+    display: flex;
+    flex-direction: column;
+    gap: 10px 10px;
+    padding: 100px 0;
+    width: 100vw;
+    
+}
+
+
+.americano {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    padding: 10px 10px;
+    gap: 0 10px;
+}
+.americano > span {
+    font-size: 26px;
+}
+.americano > button {
+    border-radius: 5px;
+    background-color: white;
+    font-size: 30px;
+}
+.latte {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    padding: 10px 10px;
+    gap: 0 10px;
+}
+.latte > span {
+    font-size: 26px;
+}
+
+.latte > button {
+    border-radius: 5px;
+    background-color: white;
+    font-size: 30px;
+}
+.vanila {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    padding: 10px 10px;
+    gap: 0 10px;
+}
+.vanila > span {
+    font-size: 26px;
+}
+.vanila > button {
+    border-radius: 5px;
+    background-color: white;
+    font-size: 30px;
+}
+.total {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 10px;
+    font-size: 46px;
+}
+.reset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    padding: 10px 10px;
+    gap: 0 10px;
+}
+.reset > button {
+    border-radius: 5px;
+    background-color: lightskyblue;
+    font-size: 35px;
+    color: white;
+}
